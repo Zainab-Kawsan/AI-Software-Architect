@@ -3,13 +3,13 @@ An AI-powered Streamlit app that generates complete software architecture bluepr
 
 ✨ Features
 
-Architecture Blueprint — generates a full, structured blueprint across 7 sections using a senior architect system prompt
-System Diagram Generator — AI draws a Mermaid.js architecture diagram with subgraph layers (Client, Backend, Services, Database, External)
-Diagram Editor — edit Mermaid code manually, re-render live, or give natural-language instructions to the AI to modify the diagram
-Iterative Refinement Chat — chat with the AI to refine specific sections, swap tech choices, or ask architecture questions without regenerating from scratch
-Save History — every generation is saved to a local history.json file with full chat history and diagram; reload any past entry from the sidebar
-Download Project — export your blueprint as .txt, .pdf (styled with ReportLab), or .mmd (Mermaid source)
-Application Type Selector — tailor output to Web App, Mobile App, AI SaaS, or E-commerce
+- Architecture Blueprint — generates a full, structured blueprint across 7 sections using a senior architect system prompt
+- System Diagram Generator — AI draws a Mermaid.js architecture diagram with subgraph layers (Client, Backend, Services, Database, External)
+- Diagram Editor — edit Mermaid code manually, re-render live, or give natural-language instructions to the AI to modify the diagram
+- Iterative Refinement Chat — chat with the AI to refine specific sections, swap tech choices, or ask architecture questions without regenerating from scratch
+- Save History — every generation is saved to a local history.json file with full chat history and diagram; reload any past entry from the sidebar
+- Download Project — export your blueprint as .txt, .pdf (styled with ReportLab), or .mmd (Mermaid source)
+- Application Type Selector — tailor output to Web App, Mobile App, AI SaaS, or E-commerce
 
 
 📁 Project Structure
@@ -44,6 +44,8 @@ venv\Scripts\activate
 
 # macOS / Linux
 source venv/bin/activate
+
+
 3. Install dependencies
 bashpip install -r requirements.txt
 4. Set up your environment variables
