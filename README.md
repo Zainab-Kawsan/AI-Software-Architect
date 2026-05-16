@@ -39,10 +39,10 @@ cd ai-software-architect
 2. Create a virtual environment
 bashpython -m venv venv
 
-# Windows
+- Windows
 venv\Scripts\activate
 
-# macOS / Linux
+- macOS / Linux
 source venv/bin/activate
 
 
